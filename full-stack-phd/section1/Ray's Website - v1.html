@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <style>
+body {
+    margin:0px;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    gap:13px;
+    padding-top:90px;
+}
+header {
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:80px;
+    background-color:#191919;
+}
+footer {
+    width:100%;
+    height:200px;
+    background-color:#191919;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:flex-end;
+    align-items:center;
+    color:white;
+    padding:13px;
+    box-sizing:border-box;
+}
+#disclaimer {
+	width:100%;
+	margin:0px;
+	font-size:11px;
+}
+#disclaimer > p {
+	padding:0px;
+	margin:0px;
+}
+#mainGrid {
+    width:95%;
+    max-width: 1000px;
+    min-height: 100vh;
+    box-sizing:border-box;
+    display:grid;
+    grid: 140px auto 140px auto / 3fr 1fr;
+    grid-gap:13px;
+}
+.ad-tall {
+    background-color:#ff5959;
+    grid-row-end: span 2;
+	background-image:url("/home/ray/sandbox/montage.png");
+	background-size:cover;
+}
+.ad-wide {
+    background-color:#5959ff;
+}
+.ad-wide > img {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.content {
+    background-color:white;
+}
+.content > img {
+	width:40%;
+	margin:13px;
+	box-sizing:border-box;
+	float:left;
+}
+.content > h1 {
+	color:#222222;
+}
+.content > p {
+	color:#292929;
+}
+.social-media-buttons {
+	float:right;
+}
+.social-media-buttons > img {
+	width:25px;
+	margin:7px;
+}
+.social-media-buttons > img:hover {
+	opacity:0.6;
+	cursor:pointer;
+}
+	  header > * {
+		display:inline-block;
+		color:#efefef;
+		padding:0px 13px 0px 13px;
+	  }
+	  header > h1 > span {
+		  background-color:#ff5959;
+		  padding:13px;
+		  border-radius:13px;
+	  }
+	  header > h2 {
+		  border-left:2px solid #ff5959;
+	  }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Ray's <span>Website</span></h1>
+		<h2>Blog posts on amazing stuff</h2>
+	</header>
+	<div id="mainGrid">
+        <div class="ad-wide">
+			<img src="perfume-ad.png"/>
+		</div>
+        <div class="ad-tall"></div>
+        <div class="content">
+		  <div class="social-media-buttons">
+			  <img src="twitter-logo.svg" alt="twitter logo">
+			  <img src="facebook-logo.svg" alt="facebook logo">
+			  <img src="linkedin-logo.svg" alt="linkedin logo">
+			  <img src="discord-logo.svg" alt="discord logo">
+		  </div>
+          <h1>My Website</h1>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <img src="maids.png" alt="Two blonde anime maids holding steaming teacups, with stunning blue eyes and youthful expressions.">
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+          <p>Elit soluta cum perferendis qui quam Repudiandae natus omnis nulla inventore unde? Repellat voluptates aspernatur fugit animi molestiae error? Animi commodi odit facere unde provident. Soluta earum placeat expedita quibusdam?</p>
+        </div>
+        <div class="ad-wide">
+			<img src="perfume-ad.png"/>
+		</div>
+        <div class="ad-tall"></div>
+        <div class="content"></div>
+	</div>
+	<footer role="contentinfo" id="footer" xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<p id="copyright" property="dc:rights">&#169;
+			  <span property="dc:dateCopyrighted">2023</span>
+			  <span property="dc:creator">Ray Voice</span>
+		</p>
+		<span>All rights reserved</span>
+		<div id="disclaimer">
+			<p><b>Disclaimer:</b> The information contained on this blog is for general informational purposes only. The opinions and views expressed on this blog are those of the authors and do not necessarily reflect the official policy or position of the company or organization they represent.</p>
+			<p>While we make every effort to ensure the accuracy of the information on this blog, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the blog or the information, products, services, or related graphics contained in the blog for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+			<p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this blog.</p>
+			<p>External links on this blog are provided for your convenience and do not imply endorsement of the linked site or its content. The blog owner is not responsible for the content or accuracy of any off-site pages or any other sites linked to this blog.</p>
+			<p>The blog owner reserves the right to change the focus of the blog, to shut it down, sell it or to change the terms of use at our discretion.</p>
+			<p>This disclaimer is subject to change at any time without notice. By using this blog, you acknowledge and accept the terms of this disclaimer.</p>
+		</div>
+	</footer>
+</body>
+</html>
